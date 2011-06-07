@@ -13,7 +13,7 @@ gem 'jquery-rails'
 
 group :production do
   gem 'therubyracer-heroku'
-  gem 'pg'
+#  gem 'pg'
 end
 
 group :test, :development do
