@@ -134,6 +134,6 @@ DEPENDENCIES
   sass
   sqlite3
   therubyracer (= 0.8.2)
-  therubyracer-heroku
+  therubyracer-heroku (= 0.8.1.pre3)
   thin
   uglifier
