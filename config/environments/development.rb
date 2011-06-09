@@ -28,6 +28,8 @@ Skygodlin::Application.configure do
   # Print deprecation notices to the Rails logger
   config.active_support.deprecation = :log
 
+  # config.action_view.debug_rjs             = true
+
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
 end
