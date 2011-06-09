@@ -1,5 +1,7 @@
 class User < ActiveRecord::Base
 
+  has_many :subdomains, :dependent => :destroy
+
   # Include default devise modules. Others available are:
   #     :token_authenticatable, :encryptable, :confirmable,
   #     :lockable, :timeoutable and :omniauthable
@@ -17,6 +19,5 @@ class User < ActiveRecord::Base
   # friendly_id configuration
   has_friendly_id :name, :use_slug => true, :strip_non_ascii => true
 
-  has_many :subdomains, :dependent => :destroy
 end
 
