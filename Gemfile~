@@ -12,7 +12,7 @@ gem 'friendly_id', '3.3.0.alpha2'
 gem 'jquery-rails'
 
 group :production do
-#  gem 'pg'
+  gem 'pg'
   gem 'therubyracer-heroku', '0.8.1.pre3'
 end
 
